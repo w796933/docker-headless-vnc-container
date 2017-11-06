@@ -1,3 +1,7 @@
+docker run -d -p 5901:5901 -p 6901:6901 -e VNC_PW=111111 consol/centos-xfce-vnc  直接这个支持中文网页
+
+
+
 # Docker container images with "headless" VNC session
 
 The repository contains a collection of Docker images with headless VNC environments.
