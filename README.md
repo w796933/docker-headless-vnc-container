@@ -1,4 +1,10 @@
 docker run -d -p 5901:5901 -p 6901:6901 -e VNC_PW=111111 consol/centos-xfce-vnc  直接这个支持中文网页
+然后在容器运行  yum install icedtea-web    
+这个是打开  jnlp  IPMI的   远程连接文件   
+用火狐浏览器打开  打开程序选择/usr/bin/javaws
+参考   http://blog.51cto.com/harryzhang/1705654
+
+
 
 
 
