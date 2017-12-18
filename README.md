@@ -10,6 +10,23 @@ docker run -d -p 5901:5901 -p 6901:6901 --user $(id -u):$(id -g) -e VNC_PW=1111 
 
 
 
+用Ubuntu xfce 环境运行   pac manager   ssh 管理工具
+docker run -d -p 5901:5901 -p 6901:6901 --user $(id -u):$(id -g) -e VNC_PW=11111 consol/ubuntu-xfce-vnc
+
+
+wget   https://sourceforge.net/projects/pacmanager/files/pac-4.0/pac-4.5.5.7-all.deb/download
+
+dpkg -i pac-4.5.5.7-all.deb
+
+
+ apt-get -f install
+ 
+ 在运行 dpkg -i pac-4.5.5.7-all.deb  就可以解决依赖了。
+ 
+ 
+ 
+
+
 
 
 
